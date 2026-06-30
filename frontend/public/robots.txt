@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# PUT ACTUAL DOMAIN HERE
+Sitemap: https://YOUR_DOMAIN.vercel.app/sitemap.xml
