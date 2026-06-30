@@ -1,6 +1,13 @@
 import zoomImage from '../assets/projects/zoom/Zoom_Clone.png';
 import taskflowImage from '../assets/projects/taskflow/Task_Manager.png';
 import krishiSetuImage from '../assets/projects/krishisetu/KrishiSetu_Overview.png';
+import profileImage from '../assets/profile/profile.jpg';
+import resumePdf from '../assets/resume/resume.pdf';
+
+import nptelDbms from '../assets/certificates/nptel-dbms.pdf';
+import javaInfosys from '../assets/certificates/java-infosys.pdf';
+import bgiHackathon from '../assets/certificates/bgi-hackathon.pdf';
+import sihInternal from '../assets/certificates/sih-internal.jpg';
 const siteConfig = {
   // ──────────────────────────────────────────────────
   // PERSONAL INFO
@@ -11,13 +18,13 @@ const siteConfig = {
     'MERN Stack Developer with hands-on experience building full-stack web applications using React.js, Node.js, Express.js, and MongoDB. Strong foundation in Data Structures & Algorithms and REST API development.',
   location: 'Bhopal, India',
 
-  email: 'rammilanLodhi@email.com',
+  email: 'rammilanlodhi822@email.com',
 
   phone: '+91-7723929323',
 
-  profileImage: '/src/assets/profile/profile.jpg',
+  profileImage: profileImage,
 
-  resumePath: '/src/assets/resume/resume.pdf',
+  resumePath: resumePdf,
 
   social: {
     github: 'https://github.com/Rammilan-Lodhi?tab=repositories',
@@ -267,25 +274,25 @@ const siteConfig = {
       title: 'Elite NPTEL DBMS',
       issuer: 'NPTEL',
       year: '2025',
-      file: '/src/assets/certificates/nptel-dbms.pdf',
+      file: nptelDbms,
     },
     {
       title: 'Programming using Java',
       issuer: 'Infosys Springboard',
       year: '2025',
-      file: '/src/assets/certificates/java-infosys.pdf',
+      file: javaInfosys,
     },
     {
       title: 'BGI Hackathon 2026',
       issuer: 'Bansal Group of Institutes',
       year: '2026',
-      file: '/src/assets/certificates/bgi-hackathon.pdf',
+      file: bgiHackathon,
     },
     {
       title: 'Smart India Hackathon 2025 (Internal)',
       issuer: 'Bansal Institute of Research & Technology',
       year: '2025',
-      file: '/src/assets/certificates/sih-internal.jpg',
+      file: sihInternal,
     },
   ],
 
