@@ -2,62 +2,10 @@
 
 Modern, premium full-stack portfolio built with React + Node.js.
 
----
+## 🚀 Live Demo
 
-## WHERE TO ADD CONTENT
-
-### Profile Image
-
-```
-frontend/src/assets/profile/profile.jpg
-```
-
-Supported: `.jpg`, `.png`, `.webp`
-
-### Resume PDF
-
-```
-frontend/src/assets/resume/resume.pdf
-```
-
-Also place at:
-
-```
-backend/assets/resume.pdf
-```
-
-for the API download endpoint.
-
-### Project Images
-
-```
-frontend/src/assets/projects/krishisetu/   ← KrishiSetu images
-frontend/src/assets/projects/zoom/         ← Zoom Clone images
-frontend/src/assets/projects/taskflow/     ← TaskFlow images
-```
-
-Then add them to `siteConfig.js` under `projects[n].images: ["/src/assets/projects/..."]`
-
-### Certificates
-
-```
-frontend/src/assets/certificates/          ← All certificate files
-```
-
-Supported: `.pdf`, `.jpg`, `.png`
-Then add them to `siteConfig.js` under `certificates[n].file`
-
-### Social Links, GitHub, LeetCode, Instagram
-
-```
-frontend/src/config/siteConfig.js          ← UPDATE ONLY THIS FILE
-```
-
-### Backend Environment
-
-```
-backend/.env                               ← Copy from backend/.env.example and fill in values
-```
+- **Portfolio:** https://rammilan-lodhi-portfolio.vercel.app
+- **Backend API:** https://personal-portfolio-website-7wsx.onrender.com
 
 ---
 
